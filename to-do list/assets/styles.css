@@ -1,0 +1,40 @@
+body {
+    font-size : 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: #FFF;
+}
+
+button {
+    color: skyblue;
+    background-color: #FFF;
+    font-size : 20px;
+    margin-bottom: 5px;
+}
+
+input {
+    font-size : 20px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    text-transform: uppercase;
+}
+
+#list {
+    border: 2px solid black;
+    text-align: justify;
+    width: 355px;
+    height: 355px;
+    margin: auto;
+}
