@@ -2,15 +2,17 @@ const USER = new Map();
 
 USER.set("Leandro", "Admin");
 USER.set("Carlos", "Developer");
-USER.set("Sandra", "QA");
+USER.set("Sandra", "Admin");
 
 
 function getAdmins(map) {
-    for (let [usuario, perfil] of map){
-       if (perfil === "Admin")
-        console.log(usuario);
+    let admins = [];
+    for (let [key, value] of map){
+       if (value === "Admin")
+        admins.push(key);
     }
+    return admins;
 }
 
-getAdmins(USER);
+console.log(getAdmins(USER));
 
