@@ -72,5 +72,4 @@ const minhaContaCorrente = new contaCorrente(1, 123, true);
 
 console.log(minhaContaCorrente.saldo);
 minhaContaCorrente.depositar(300);
-
 console.log(minhaContaCorrente.saldo);
